@@ -4,6 +4,9 @@ SFWebsite::Application.routes.draw do
    get "sf/header"
   get "sf/footer"
   get "sf/donation"
+  get "sf/corporates"
+  get "sf/individuals"
+  get "sf/foundations"
 
 
 

@@ -4,7 +4,7 @@
     <data-source source="LOCAL" name="Rails SF_website: development" uuid="9db95828-c2cb-4315-9050-ebde13322a97">
       <driver-ref>sqlite.xerial</driver-ref>
       <jdbc-driver>org.postgresql.Driver</jdbc-driver>
-      <jdbc-url>jdbc:postgresql:solidarity_development</jdbc-url>
+      <jdbc-url>jdbc:postgresql:solidarity_development.pg</jdbc-url>
       <libraries />
     </data-source>
   </component>

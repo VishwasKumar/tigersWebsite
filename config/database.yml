@@ -5,7 +5,7 @@
 #   gem 'sqlite3'
 development:
   adapter: postgresql
-  database: solidarity_development
+  database: solidarity_development.pg
   pool: 5
   timeout: 5000
 

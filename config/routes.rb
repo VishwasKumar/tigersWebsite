@@ -5,7 +5,7 @@ SFWebsite::Application.routes.draw do
   get "sf/footer"
   get "sf/donation"
 
-end
+
 
 
 
@@ -13,7 +13,7 @@ end
 # Require any additional compass plugins here.
 
 # Set this to the root of your project when deployed:
-http_path = "sf/index"
+root 'sf/index'
 css_dir = "css"
 sass_dir = "sass"
 images_dir = "img"
@@ -36,3 +36,4 @@ color_output = false
 # preferred_syntax = :sass
 # and then run:
 # sass-convert -R --from scss --to sass sass scss && rm -rf sass && mv scss sass
+end

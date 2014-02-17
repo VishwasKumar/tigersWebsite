@@ -1,0 +1,1 @@
+$(function(){if(!!$(".donatenow").offset()){var e=$(".donatenow").offset().top;$(window).scroll(function(){var t=$(window).scrollTop();e<t?$(".donatenow").css({position:"fixed",top:0}):$(".donatenow").css("position","static")})}});

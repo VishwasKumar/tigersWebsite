@@ -6578,7 +6578,7 @@ footer {
 
 /* line 265, ../sass/_styles.scss */
 .page-head {
-  background: url(../img/page-header.png) repeat 0 0;
+  background: url(/assets/page-header.png) repeat 0 0;
   margin-bottom: 30px; }
   /* line 269, ../sass/_styles.scss */
   .page-head h1 {

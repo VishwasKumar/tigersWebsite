@@ -35,15 +35,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="_header.html.erb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/views/layouts/_header.html.erb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="31" column="10" selection-start="1269" selection-end="1307" vertical-scroll-proportion="-4.76" vertical-offset="227" max-vertical-offset="1515">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="application_controller.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/controllers/application_controller.rb">
           <provider selected="true" editor-type-id="text-editor">
@@ -101,16 +92,23 @@
       <file leaf-file-name="corporates.html" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/views/sf/corporates.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="20" column="46" selection-start="513" selection-end="513" vertical-scroll-proportion="0.37482518" vertical-offset="32" max-vertical-offset="2445">
+            <state line="18" column="29" selection-start="389" selection-end="389" vertical-scroll-proportion="0.33286715" vertical-offset="32" max-vertical-offset="2430">
               <folding />
             </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="corporate.jpeg" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/assets/images/corporate.jpeg">
+          <provider selected="true" editor-type-id="images">
+            <state />
           </provider>
         </entry>
       </file>
       <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/sf/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="44" column="27" selection-start="1518" selection-end="1518" vertical-scroll-proportion="0.0" vertical-offset="660" max-vertical-offset="1620">
+            <state line="44" column="27" selection-start="1518" selection-end="1518" vertical-scroll-proportion="-27.5" vertical-offset="0" max-vertical-offset="1620">
               <folding />
             </state>
           </provider>
@@ -351,6 +349,28 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="assets" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SF_website" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SF_website_actual" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="assets" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="images" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -644,13 +664,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/views/layouts/_header.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="8" selection-start="726" selection-end="726" vertical-scroll-proportion="0.0" vertical-offset="120" max-vertical-offset="1515">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/config/database.yml">
       <provider selected="true" editor-type-id="text-editor">
         <state line="14" column="0" selection-start="408" selection-end="408" vertical-scroll-proportion="0.0" vertical-offset="210" max-vertical-offset="300" />
@@ -885,13 +898,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/sf/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="44" column="27" selection-start="1518" selection-end="1518" vertical-scroll-proportion="0.0" vertical-offset="660" max-vertical-offset="1620">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/views/sf/donation_test.html">
       <provider selected="true" editor-type-id="text-editor">
         <state line="75" column="2" selection-start="3309" selection-end="3309" vertical-scroll-proportion="0.0" vertical-offset="1020" max-vertical-offset="4905">
@@ -927,16 +933,28 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/layouts/_header.html.erb">
+    <entry file="file://$PROJECT_DIR$/app/views/sf/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="31" column="10" selection-start="1269" selection-end="1307" vertical-scroll-proportion="-4.76" vertical-offset="227" max-vertical-offset="1515">
+        <state line="44" column="27" selection-start="1518" selection-end="1518" vertical-scroll-proportion="-27.5" vertical-offset="0" max-vertical-offset="1620">
           <folding />
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/layouts/_header.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="31" column="48" selection-start="1307" selection-end="1307" vertical-scroll-proportion="-4.76" vertical-offset="227" max-vertical-offset="1515">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/assets/images/corporate.jpeg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/views/sf/corporates.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="46" selection-start="513" selection-end="513" vertical-scroll-proportion="0.37482518" vertical-offset="32" max-vertical-offset="2445">
+        <state line="18" column="29" selection-start="389" selection-end="389" vertical-scroll-proportion="0.33286715" vertical-offset="32" max-vertical-offset="2430">
           <folding />
         </state>
       </provider>

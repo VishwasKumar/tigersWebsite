@@ -18,7 +18,7 @@ gem 'coffee-rails', '~> 4.0.0'
 # See https://github.com/sstephenson/execjs#readme for more supported runtimes
 # gem 'therubyracer', platforms: :ruby
 
-gem 'pg'
+
 
 # Use jquery as the JavaScript library
 gem 'jquery-rails'
@@ -28,6 +28,7 @@ gem 'turbolinks'
 
 group :production do
   gem 'rails_12factor'
+  gem 'pg'
 end
 
 ruby '2.1.0'

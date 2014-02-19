@@ -1,12 +1,11 @@
 SFWebsite::Application.routes.draw do
 
-  get "sf/index"
-   get "sf/header"
-  get "sf/footer"
-  get "sf/donation"
-  get "sf/corporates"
-  get "sf/individuals"
-  get "sf/foundations"
+  match '/index', to: 'sf#index', via: 'get'
+  match '/donation', to: 'sf#donation', via: 'get'
+  match '/corporates', to: 'sf#corporates', via: 'get'
+  match '/individuals', to: 'sf#individuals', via: 'get'
+  match '/foundations', to: 'sf#foundations', via: 'get'
+
 
 
 

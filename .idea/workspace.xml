@@ -12,7 +12,7 @@
   </component>
   <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/SF_website@Development__SF_website.coverage" NAME="Development: SF_website Coverage Results" MODIFIED="1392722047165" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="SF_website" />
+    <SUITE FILE_PATH="coverage/SF_website@Development__SF_website.coverage" NAME="Development: SF_website Coverage Results" MODIFIED="1392783986379" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="SF_website" />
   </component>
   <component name="CreatePatchCommitExecutor">
     <option name="PATCH_PATH" value="" />
@@ -62,15 +62,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="donation.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/views/sf/donation.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="104" column="42" selection-start="4206" selection-end="4206" vertical-scroll-proportion="0.375" vertical-offset="1569" max-vertical-offset="2055">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="application.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/config/application.rb">
           <provider selected="true" editor-type-id="text-editor">
@@ -92,16 +83,25 @@
       <file leaf-file-name="corporates.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/sf/corporates.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="95" column="25" selection-start="4894" selection-end="4898" vertical-scroll-proportion="10.9" vertical-offset="1970" max-vertical-offset="2430">
+            <state line="18" column="38" selection-start="398" selection-end="398" vertical-scroll-proportion="-0.0" vertical-offset="270" max-vertical-offset="2445">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="main.css" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="routes.rb" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/config/routes.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="2" column="44" selection-start="83" selection-end="83" vertical-scroll-proportion="0.057471264" vertical-offset="0" max-vertical-offset="690">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="main.css" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/main.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="6580" column="18" selection-start="186775" selection-end="186775" vertical-scroll-proportion="0.33264464" vertical-offset="98539" max-vertical-offset="99615">
+            <state line="6580" column="14" selection-start="186771" selection-end="186771" vertical-scroll-proportion="0.0" vertical-offset="98539" max-vertical-offset="99615">
               <folding />
             </state>
           </provider>
@@ -160,10 +160,8 @@
         <option value="$PROJECT_DIR$/app/views/sf/work.html.erb" />
         <option value="$PROJECT_DIR$/app/views/layouts/application.html.erb" />
         <option value="$PROJECT_DIR$/app/views/sf/aboutus.html.erb" />
-        <option value="$PROJECT_DIR$/config/routes.rb" />
         <option value="$PROJECT_DIR$/app/views/sf/index.html" />
         <option value="$PROJECT_DIR$/app/views/sf/foundations.html" />
-        <option value="$PROJECT_DIR$/app/views/sf/corporates.html" />
         <option value="$PROJECT_DIR$/config/database.yml" />
         <option value="$PROJECT_DIR$/Gemfile" />
         <option value="$PROJECT_DIR$/config/environments/development.rb" />
@@ -173,6 +171,8 @@
         <option value="$PROJECT_DIR$/app/views/sf/donation.html" />
         <option value="$PROJECT_DIR$/app/views/sf/individuals.html" />
         <option value="$PROJECT_DIR$/app/assets/stylesheets/main.css" />
+        <option value="$PROJECT_DIR$/app/views/sf/corporates.html" />
+        <option value="$PROJECT_DIR$/config/routes.rb" />
       </list>
     </option>
   </component>
@@ -214,6 +214,7 @@
     </navigator>
     <panes>
       <pane id="RailsProjectView" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -400,7 +401,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -654,11 +654,11 @@
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3291506" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2167382" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.22246066" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33494207" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3075995" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3071342" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -666,7 +666,7 @@
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32889965" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39903265" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
     </layout>
   </component>
@@ -696,16 +696,12 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/sf/individuals.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="34" column="49" selection-start="1421" selection-end="1429" vertical-scroll-proportion="0.0" vertical-offset="510" max-vertical-offset="4230">
-          <folding />
-        </state>
+        <state line="34" column="49" selection-start="1421" selection-end="1429" vertical-scroll-proportion="0.0" vertical-offset="510" max-vertical-offset="4230" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/sf/foundations.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="54" max-vertical-offset="4095">
-          <folding />
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="54" max-vertical-offset="4095" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/layouts/_footer.html.erb">
@@ -720,9 +716,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/layouts/_header.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="95" column="0" selection-start="4028" selection-end="4028" vertical-scroll-proportion="0.0" vertical-offset="135" max-vertical-offset="1515">
-          <folding />
-        </state>
+        <state line="95" column="0" selection-start="4028" selection-end="4028" vertical-scroll-proportion="0.0" vertical-offset="135" max-vertical-offset="1515" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/layouts/application.html.erb">
@@ -744,9 +738,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/sf/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="44" column="23" selection-start="1514" selection-end="1514" vertical-scroll-proportion="0.0" vertical-offset="660" max-vertical-offset="1620">
-          <folding />
-        </state>
+        <state line="44" column="23" selection-start="1514" selection-end="1514" vertical-scroll-proportion="0.0" vertical-offset="660" max-vertical-offset="1620" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/layouts/_footer.html.erb">
@@ -928,56 +920,48 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/layouts/_header.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="69" column="27" selection-start="3142" selection-end="3142" vertical-scroll-proportion="-11.875" vertical-offset="750" max-vertical-offset="1515">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/routes.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="21" selection-start="179" selection-end="179" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="705">
-          <folding />
-        </state>
+        <state line="69" column="27" selection-start="3142" selection-end="3142" vertical-scroll-proportion="-11.875" vertical-offset="750" max-vertical-offset="1515" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/sf/individuals.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="21" selection-start="288" selection-end="288" vertical-scroll-proportion="0.40123457" vertical-offset="0" max-vertical-offset="2655">
-          <folding />
-        </state>
+        <state line="13" column="21" selection-start="288" selection-end="288" vertical-scroll-proportion="0.40123457" vertical-offset="0" max-vertical-offset="2655" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/sf/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="75" column="15" selection-start="3385" selection-end="3389" vertical-scroll-proportion="1.1728395" vertical-offset="555" max-vertical-offset="1620">
-          <folding />
-        </state>
+        <state line="75" column="15" selection-start="3385" selection-end="3389" vertical-scroll-proportion="1.1728395" vertical-offset="555" max-vertical-offset="1620" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/sf/foundations.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="71" column="13" selection-start="2197" selection-end="2201" vertical-scroll-proportion="-0.30864197" vertical-offset="1215" max-vertical-offset="2025">
-          <folding />
-        </state>
+        <state line="71" column="13" selection-start="2197" selection-end="2201" vertical-scroll-proportion="-0.30864197" vertical-offset="1215" max-vertical-offset="2025" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/sf/donation.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="104" column="42" selection-start="4206" selection-end="4206" vertical-scroll-proportion="0.375" vertical-offset="1569" max-vertical-offset="2055">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/sf/corporates.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="95" column="25" selection-start="4894" selection-end="4898" vertical-scroll-proportion="10.9" vertical-offset="1970" max-vertical-offset="2430">
+        <state line="104" column="42" selection-start="4206" selection-end="4206" vertical-scroll-proportion="0.0" vertical-offset="1569" max-vertical-offset="2055">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/main.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="6580" column="18" selection-start="186775" selection-end="186775" vertical-scroll-proportion="0.33264464" vertical-offset="98539" max-vertical-offset="99615">
+        <state line="6580" column="14" selection-start="186771" selection-end="186771" vertical-scroll-proportion="0.0" vertical-offset="98539" max-vertical-offset="99615">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/sf/corporates.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="18" column="38" selection-start="398" selection-end="398" vertical-scroll-proportion="0.0" vertical-offset="270" max-vertical-offset="2445">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/routes.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="44" selection-start="83" selection-end="83" vertical-scroll-proportion="0.057471264" vertical-offset="0" max-vertical-offset="690">
           <folding />
         </state>
       </provider>

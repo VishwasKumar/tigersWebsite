@@ -6535,7 +6535,9 @@ footer {
 .donatenow {
   background: #e5e5e5;
   padding: 0 20px 20px;
-  margin-top: 55px; }
+  margin-top: 55px; 
+  position: absolute;
+}
   /* line 217, ../sass/_styles.scss */
   .donatenow h2 {
     background: #069767;
@@ -6649,3 +6651,8 @@ p {
   padding-top: 0px;
   font-size: 35px;
   font-family: Verdana, Geneva, sans-serif; }
+
+.get-involved-summary{
+  font-weight: bold;
+  font-size: 16px;
+}

@@ -80,19 +80,19 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="corporates.html" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="corporates.html" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/views/sf/corporates.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="18" column="38" selection-start="398" selection-end="398" vertical-scroll-proportion="-0.0" vertical-offset="270" max-vertical-offset="2445">
+            <state line="18" column="55" selection-start="415" selection-end="415" vertical-scroll-proportion="0.34020618" vertical-offset="105" max-vertical-offset="2445">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="main.css" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="main.css" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/main.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="6583" column="17" selection-start="186885" selection-end="186885" vertical-scroll-proportion="0.33333334" vertical-offset="98584" max-vertical-offset="99615">
+            <state line="6583" column="17" selection-start="186885" selection-end="186885" vertical-scroll-proportion="-6.1923075" vertical-offset="98584" max-vertical-offset="99615">
               <folding />
             </state>
           </provider>
@@ -168,12 +168,12 @@
         <option value="$PROJECT_DIR$/config/application.rb" />
         <option value="$PROJECT_DIR$/app/views/layouts/_footer.html.erb" />
         <option value="$PROJECT_DIR$/app/views/sf/donation.html" />
-        <option value="$PROJECT_DIR$/app/views/sf/corporates.html" />
         <option value="$PROJECT_DIR$/config/routes.rb" />
         <option value="$PROJECT_DIR$/app/views/layouts/_header.html.erb" />
         <option value="$PROJECT_DIR$/app/views/sf/individuals.html" />
         <option value="$PROJECT_DIR$/config/environments/production.rb" />
         <option value="$PROJECT_DIR$/app/assets/stylesheets/main.css" />
+        <option value="$PROJECT_DIR$/app/views/sf/corporates.html" />
       </list>
     </option>
   </component>
@@ -693,9 +693,7 @@
     <entry file="file://$PROJECT_DIR$/app/views/sf/individuals.html">
       <provider selected="true" editor-type-id="text-editor">
         <state line="34" column="49" selection-start="1421" selection-end="1429" vertical-scroll-proportion="0.0" vertical-offset="510" max-vertical-offset="4230">
-          <folding>
-            <element signature="n#style#0;n#div#1;n#main#0;n#!!top" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -930,13 +928,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/sf/corporates.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="38" selection-start="398" selection-end="398" vertical-scroll-proportion="0.0" vertical-offset="270" max-vertical-offset="2445">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/config/routes.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="2" column="44" selection-start="83" selection-end="83" vertical-scroll-proportion="0.057471264" vertical-offset="0" max-vertical-offset="690">
@@ -961,9 +952,7 @@
     <entry file="file://$PROJECT_DIR$/app/views/sf/individuals.html">
       <provider selected="true" editor-type-id="text-editor">
         <state line="63" column="29" selection-start="2473" selection-end="2473" vertical-scroll-proportion="-5.625" vertical-offset="810" max-vertical-offset="2730">
-          <folding>
-            <element signature="n#style#0;n#div#1;n#main#0;n#!!top" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -976,7 +965,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/main.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="6583" column="17" selection-start="186885" selection-end="186885" vertical-scroll-proportion="0.33333334" vertical-offset="98584" max-vertical-offset="99615">
+        <state line="6583" column="17" selection-start="186885" selection-end="186885" vertical-scroll-proportion="-6.1923075" vertical-offset="98584" max-vertical-offset="99615">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/sf/corporates.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="18" column="55" selection-start="415" selection-end="415" vertical-scroll-proportion="0.34020618" vertical-offset="105" max-vertical-offset="2445">
           <folding />
         </state>
       </provider>

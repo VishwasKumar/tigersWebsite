@@ -6545,7 +6545,7 @@ footer {
     margin-right: 400px;
     font-size: 22px;
     color: #fff;
-  
+    position: relative;
     top: 0px;
     left: -400px;
     text-align: center;

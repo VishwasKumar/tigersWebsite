@@ -5,9 +5,11 @@ SFWebsite::Application.routes.draw do
   match '/corporates', to: 'sf#corporates', via: 'get'
   match '/individuals', to: 'sf#individuals', via: 'get'
   match '/foundations', to: 'sf#foundations', via: 'get'
-
-
-
+  match '/team', to: 'sf#team', via: 'get'
+  match '/media', to: 'sf#media', via: 'get'
+  match '/impactstories', to: 'sf#impactstories', via: 'get'
+  match '/story1', to: 'sf#story1', via: 'get'
+    match '/aboutus', to: 'sf#aboutus', via: 'get'
 
 
 

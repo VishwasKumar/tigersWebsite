@@ -6706,3 +6706,14 @@ font-size: 10px;
 font-family: Verdana, Geneva, sans-serif;
 
 }
+
+
+.aboutus img{
+    height: 100px;
+    width: 100%;
+}
+
+.aboutus q{
+    font-size: 25px;
+    padding-left: 300px;
+}

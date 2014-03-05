@@ -6599,7 +6599,10 @@ footer {
 /* line 291, ../sass/_styles.scss */
 .overview h2 {
   font-size: 22px;
-  margin-top: 0; }
+  margin-top: 0;
+    padding-left: 80px;
+    padding-left: 115px;
+}
 /* line 295, ../sass/_styles.scss */
 .overview img {
   border-radius: 0px;
@@ -6708,7 +6711,6 @@ font-family: Verdana, Geneva, sans-serif;
 
 }
 
-
 .aboutus img{
     height: 100px;
     width: 100%;
@@ -6718,3 +6720,4 @@ font-family: Verdana, Geneva, sans-serif;
     font-size: 25px;
     padding-left: 300px;
 }
+

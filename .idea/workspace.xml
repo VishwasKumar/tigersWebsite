@@ -35,10 +35,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="donation.html" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="donation.html" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/views/sf/donation.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="15" column="35" selection-start="389" selection-end="389" vertical-scroll-proportion="-5.625" vertical-offset="90" max-vertical-offset="2055">
+            <state line="34" column="44" selection-start="1413" selection-end="1413" vertical-scroll-proportion="0.5294118" vertical-offset="285" max-vertical-offset="2055">
               <folding />
             </state>
           </provider>
@@ -62,10 +62,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="main.css" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="main.css" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/main.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="6654" column="2" selection-start="188322" selection-end="188322" vertical-scroll-proportion="0.36879432" vertical-offset="99654" max-vertical-offset="100875">
+            <state line="6603" column="21" selection-start="187290" selection-end="187290" vertical-scroll-proportion="-7.730769" vertical-offset="98844" max-vertical-offset="100935">
               <folding />
             </state>
           </provider>
@@ -128,11 +128,11 @@
         <option value="$PROJECT_DIR$/Gemfile" />
         <option value="$PROJECT_DIR$/app/views/sf/aboutus.html" />
         <option value="$PROJECT_DIR$/app/views/sf/index.html" />
-        <option value="$PROJECT_DIR$/app/views/sf/donation.html" />
         <option value="$PROJECT_DIR$/app/views/sf/corporates.html" />
         <option value="$PROJECT_DIR$/app/views/sf/individuals.html" />
         <option value="$PROJECT_DIR$/app/views/sf/foundations.html" />
         <option value="$PROJECT_DIR$/app/assets/stylesheets/main.css" />
+        <option value="$PROJECT_DIR$/app/views/sf/donation.html" />
       </list>
     </option>
   </component>
@@ -907,20 +907,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/sf/donation.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="35" selection-start="389" selection-end="389" vertical-scroll-proportion="-5.625" vertical-offset="90" max-vertical-offset="2055">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/sf/individuals.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="32" selection-start="512" selection-end="512" vertical-scroll-proportion="-11.875" vertical-offset="45" max-vertical-offset="3150">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/views/sf/foundations.html">
       <provider selected="true" editor-type-id="text-editor">
         <state line="22" column="36" selection-start="572" selection-end="572" vertical-scroll-proportion="-13.75" vertical-offset="0" max-vertical-offset="2610">
@@ -935,9 +921,23 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/sf/individuals.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="22" column="32" selection-start="512" selection-end="512" vertical-scroll-proportion="-11.875" vertical-offset="45" max-vertical-offset="3150">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/main.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="6654" column="2" selection-start="188322" selection-end="188322" vertical-scroll-proportion="0.36879432" vertical-offset="99654" max-vertical-offset="100875">
+        <state line="6603" column="21" selection-start="187290" selection-end="187290" vertical-scroll-proportion="-7.730769" vertical-offset="98844" max-vertical-offset="100935">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/sf/donation.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="34" column="44" selection-start="1413" selection-end="1413" vertical-scroll-proportion="0.5294118" vertical-offset="285" max-vertical-offset="2055">
           <folding />
         </state>
       </provider>

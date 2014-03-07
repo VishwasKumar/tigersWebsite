@@ -9,7 +9,10 @@ SFWebsite::Application.routes.draw do
   match '/media', to: 'sf#media', via: 'get'
   match '/impactstories', to: 'sf#impactstories', via: 'get'
   match '/story1', to: 'sf#story1', via: 'get'
-    match '/aboutus', to: 'sf#aboutus', via: 'get'
+  match '/aboutus', to: 'sf#aboutus', via: 'get'
+  match '/strategies', to: 'sf#hww-strategies', via: 'get'
+  match '/work', to: 'sf#hww-work', via: 'get'
+
 
 
 

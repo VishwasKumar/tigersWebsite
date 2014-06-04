@@ -1,68 +1,40 @@
-
 <main class="main-container">
-<section class="hero">
-    <div class="container">
-      <div class="row">
-      <div class="col-md-7">
+<section class="main-hero">
+      <!-- <div class="col-md-7">
           <iframe width="560" height="315" src="//www.youtube.com/embed/fMk564lb0z8" frameborder="0" allowfullscreen></iframe>      </div>
       <div class="col-md-5">
         <p>Augue egestas lectus magnis, sit mid nunc aliquam et augue odio rhoncus amet, lectus odio urna magna dolor, nisi vel integer! Lacus turpis, nunc? Ac dapibus, ac placerat, dictumst, augue augue enim, urna diam rhoncus aliquet </p>
         <a href="#" class="readmore">Read impact stories</a>
       </div>
-      </div>
-    </div> 
+-->
+<img src="assets/page-header.png" width=1800 height=10>
+<img src="assets/thoughtworks.gif" name="slide" width=1800 height=500>
+<img src="assets/page-header.png" width=1800 height=10>
+<script type="text/javascript">
+        var step=1;
+        function slideit()
+        {
+            document.images.slide.src = eval("image"+step+".src");
+            if(step<2)
+                step++;
+            else
+                step=1;
+            setTimeout("slideit()",2500);
+        }
+        slideit();
+</script>
 </section>
 
-<!-- 
-<section class="numbers">
-  <div class="container">
-
-
-    <ul class="numberlist">
-      <li>
-          <div class="title">
-            <span class="number">2014</span> <span class="txt">in numbers</span> 
-          </div>
-      </li>
-      <li> <span class="number">1,037,000</span> <span class="txt">in donations</span> </li>
-      <li> <span class="number">29</span> <span class="txt">Volunteers</span> </li>
-      <li> <span class="number">11</span> <span class="txt">Events planned</span> </li>
-      <li> <span class="number">5</span> <span class="txt">Surveys conducted</span> </li>
-    </ul>
-</div>   
-  </div>
-</section> -->
 
 <section class="items">
   
   <div class="container">
-    <div class="row">
-    <div class="col-md-6">
-      <h3>How are we funded?</h3>
-      <div class="row">
-        <div class="col-md-4">
-          <img src="/assets/piechart.png" alt="">
-          <ul>
-            <li class="corporates">corporates</li>
-            <li class="individuals">individuals</li>
-          </ul>
-
-        </div>
-        <div class="col-md-8">
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Expedita, ex, nemo praesentium blanditiis voluptatem qui provident sapiente aliquam illum reprehenderit quam nostrum pariatur voluptate saepe at explicabo voluptas! Blanditiis, odit.</p>
-<a href="#" class="button btn-small button-main"> more </a>
-        </div>
-      </div>
-
-    </div>
-    <div class="col-md-6">
-      <h3>Plans for 2014</h3>
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reprehenderit, nam, nisi, aliquam consequatur itaque assumenda labore eos ex natus magni optio amet sed sunt placeat commodi velit rerum asperiores pariatur.</p>
-      <p>Ac augue. Nunc mauris dictumst? Habitasse proin! Nec nascetur et duis! Lorem! Eu, turpis porttitor penatibus dictumst duis nunc, amet enim phasellus in? Et, et mauris purus quis in rhoncus pid. Magnis et lorem porta dapibus pulvinar sed dolor a egestas integer turpis porttitor mauris vut dignissim ac nisi pellentesque parturient lectus porta, aliquam scelerisque, ultrices. Nascetur, enim amet in lorem. Porta et quis massa purus cursus scelerisque augue aliquet adipiscing et massa, a dapibus rhoncus ridiculus hac porta,</p>
-
+    <div class="row who-are-we">
+   
+      <h3>Who are We?</h3>
+      <p>TMM is a youth organization which is popularly known as Tiger Mane Machas.The members of this organization i.e the Tigers are found typically on Saturday and/or Sunday afternoons playing in BMS College of engineering. Tigers spend most of their time on weekdays slogging for different corporate company's while the weekends are spent playing FIFA or football. TMM do sign new tigers every year based on the performance and dedication of the candidates. After signing a player for TMM player will be monitored on punctuality and determination for 6 months after which he will be handled a Tiger FC Badge by the president and senior most Tiger "Shishira Haleneer". Keep roaring Tigers !!</p>
     </div>
     </div>
-  </div>
 </section>
 
 <section class="features">
@@ -70,32 +42,30 @@
     <div class="row">
       <div class=" col-sm-6 col-md-3">
         <h3>Our Mission</h3>
-        <img src="/assets/mission.png" alt="">
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto, repellendus, earum sint amet officia dolorem hic numquam architecto eaque unde. Dolor, esse, minima dicta nihil obcaecati veniam sit accusamus reiciendis.</p>
-        <a href="#" class="button btn-small button-main"> more </a>
+        <img src="/assets/mission.jpg" alt="mission" height="180" width="250">
+        <p>Tiger F.C's mission is to provide an opportunity for local members to play at the highest level and reach their full potential.</p>
+        <a href="mission.html" class="button btn-small button-main"> more </a>
       </div>
       <div class=" col-sm-6 col-md-3">
         <h3>Our Activities</h3>
-        <img src="/assets/activities.png" alt="">
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto, repellendus, earum sint amet officia dolorem hic numquam architecto eaque unde. Dolor, esse, minima dicta nihil obcaecati veniam sit accusamus reiciendis.</p>
-        <a href="#" class="button btn-small button-main "> more </a>
+        <img src="/assets/activities.jpg" alt="activities" height="180" width="250">
+        <p>Our activities are guided by the Sustainability Principles of Tiger F.C. We focus on topics that are relevant for our long-term business success or of major interest to our stakeholders.</p>
+        <a href="news.html" class="button btn-small button-main "> more </a>
       </div>
       <div class=" col-sm-6 col-md-3">
-        <h3>Funding</h3>
-        <img src="/assets/funding.png" alt="">
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto, repellendus, earum sint amet officia dolorem hic numquam architecto eaque unde. Dolor, esse, minima dicta nihil obcaecati veniam sit accusamus reiciendis.</p>
-        <a href="#" class="button btn-small button-main"> more </a>
+        <h3>Our Team</h3>
+        <img src="/assets/ourteam.jpg" alt="funding" height="180" width="250">
+        <p>Our people are our greatest asset and biggest differentiator. They are passionate about results, and also believe in having a lot of fun along the way. From Bain-da-Band to Bindaas to bay parties, there are many avenues for letting your hair down.</p>
+        <a href="ourteam.html" class="button btn-small button-main"> more </a>
       </div>
       <div class=" col-sm-6 col-md-3">
         <h3>Get Involved</h3>
-        <img src="/assets/involvement.png" alt="">
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto, repellendus, earum sint amet officia dolorem hic numquam architecto eaque unde. Dolor, esse, minima dicta nihil obcaecati veniam sit accusamus reiciendis.</p>
-        <a href="#" class="button btn-small button-main"> more </a>
+        <img src="/assets/involvement.jpg" alt="contactus" height="180" width="250">
+        <p>Funded by Russian rubles, Saudi Riyal and American Dollars, the club generates a lot of money every year into grassroots sport.You can get in touch with us by writing to us. Looking forward to hearing from you.</p>
+        <a href="contactus.html" class="button btn-small button-main"> more </a>
       </div>
     </div>
   </div>
-
 </section>
-
  </main>
 

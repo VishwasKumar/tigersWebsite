@@ -4112,7 +4112,7 @@ input[type="button"].btn-block {
         float: left; }
         /* line 248, ../sass/lib/_navbar.scss */
         .navbar-nav > li > a {
-          padding-top: 15px;
+          padding-top: 75px;
           padding-bottom: 15px; } }
 
 @media (min-width: 768px) {
@@ -6431,9 +6431,9 @@ td.visible-print {
 /*navigation */
 /* line 102, ../sass/_styles.scss */
 .actions {
-  float: right;
-  margin-top: -1px;
-  margin-bottom: 15px; }
+  padding-top: 45px;
+  
+   }
   /* line 106, ../sass/_styles.scss */
   .actions .btn {
     border-top-left-radius: 0;
@@ -6488,7 +6488,8 @@ td.visible-print {
     margin-bottom: 20px; }
   /* line 160, ../sass/_styles.scss */
   .features img {
-    margin-bottom: 20px; }
+    margin-bottom: 20px;
+    border-radius: 100px; }
 
 /* line 165, ../sass/_styles.scss */
 footer {
@@ -6584,7 +6585,8 @@ footer {
   /* line 269, ../sass/_styles.scss */
   .page-head h1 {
     float: left;
-    color: #1abc9c;
+    color: #CC6600;
+    /*color: #1abc9c;*/
     margin: 10px 0; }
   /* line 275, ../sass/_styles.scss */
   .page-head span {
@@ -6719,5 +6721,52 @@ font-family: Verdana, Geneva, sans-serif;
 .aboutus q{
     font-size: 25px;
     padding-left: 300px;
+}
+
+.navbar-center{
+  padding-left: 250px;
+}
+
+.navbar-brand img{
+ width: 125px;
+ height: 125px;
+ display: inline;
+}
+
+.navbar-brand h1{
+  display: inline;
+  padding-left: 10px;
+  padding-top: 10px;
+  color: #CC6630;
+}
+
+.navbar-brand p{
+  display: inline;
+  color: #CC6630;
+}
+
+.navbar-brand sup{
+  top: -1.5em;
+}
+
+.who-are-we{
+  padding: 20px;
+}
+
+.features img{
+  padding: 17px 0 17px 0;
+  width: 250;
+  height: 180;
+}
+
+.contact h1{
+  color: #CC6600;
+
+}
+
+.contact span{
+  font-size: 25px;
+  font-family: Verdana, Geneva, sans-serif;
+  color: #000;
 }
 

@@ -7,11 +7,11 @@ SFWebsite::Application.routes.draw do
   match '/foundations', to: 'sf#foundations', via: 'get'
   match '/team', to: 'sf#team', via: 'get'
   match '/media', to: 'sf#media', via: 'get'
-  match '/impactstories', to: 'sf#impactstories', via: 'get'
+  match '/news', to: 'sf#news', via: 'get'
   match '/story1', to: 'sf#story1', via: 'get'
-  match '/aboutus', to: 'sf#aboutus', via: 'get'
-  match '/strategies', to: 'sf#hww-strategies', via: 'get'
-  match '/work', to: 'sf#hww-work', via: 'get'
+  match '/ourteam', to: 'sf#ourteam', via: 'get'
+  match '/mission', to: 'sf#mission', via: 'get'
+  match '/contactus', to: 'sf#contactus', via: 'get'
 
 
 

@@ -6580,7 +6580,8 @@ footer {
 
 /* line 265, ../sass/_styles.scss */
 .page-head {
-  background: url(/assets/page-header.png) repeat 0 0;
+  background: url(/assets/tiger.jpg) repeat 0 0;
+  /*background: url(/assets/page-header.png) repeat 0 0;*/
   margin-bottom: 30px; }
   /* line 269, ../sass/_styles.scss */
   .page-head h1 {
@@ -6770,3 +6771,10 @@ font-family: Verdana, Geneva, sans-serif;
   color: #000;
 }
 
+.news{
+  display: inline;
+  float: right;
+  clear: right;
+}
+
+ 

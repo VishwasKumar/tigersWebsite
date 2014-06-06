@@ -1,14 +1,14 @@
 SFWebsite::Application.routes.draw do
 
   match '/index', to: 'sf#index', via: 'get'
-  match '/donation', to: 'sf#donation', via: 'get'
-  match '/corporates', to: 'sf#corporates', via: 'get'
-  match '/individuals', to: 'sf#individuals', via: 'get'
-  match '/foundations', to: 'sf#foundations', via: 'get'
-  match '/team', to: 'sf#team', via: 'get'
-  match '/media', to: 'sf#media', via: 'get'
+  # match '/donation', to: 'sf#donation', via: 'get'
+  # match '/corporates', to: 'sf#corporates', via: 'get'
+  # match '/individuals', to: 'sf#individuals', via: 'get'
+  # match '/foundations', to: 'sf#foundations', via: 'get'
+  # match '/team', to: 'sf#team', via: 'get'
+  # match '/media', to: 'sf#media', via: 'get'
   match '/news', to: 'sf#news', via: 'get'
-  match '/story1', to: 'sf#story1', via: 'get'
+  # match '/story1', to: 'sf#story1', via: 'get'
   match '/ourteam', to: 'sf#ourteam', via: 'get'
   match '/mission', to: 'sf#mission', via: 'get'
   match '/contactus', to: 'sf#contactus', via: 'get'
@@ -35,7 +35,7 @@ environment = :development
 
 # To disable debugging comments that display the original location of your selectors. Uncomment:
 # line_comments = false
-color_output = false
+color_output = true
 
 
 # If you prefer the indented syntax, you might want to regenerate this

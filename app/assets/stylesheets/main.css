@@ -6789,4 +6789,13 @@ font-family: Verdana, Geneva, sans-serif;
   padding-left: 15px;
   padding-top: 5px
 }
+
+.ourteam .highslide-image {
+    border-color: black;
+}
+.ourteam .highslide-caption {
+    border-color: black;
+    background-color: gray;
+    color: white;
+}
  

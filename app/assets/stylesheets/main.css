@@ -6798,4 +6798,9 @@ font-family: Verdana, Geneva, sans-serif;
     background-color: gray;
     color: white;
 }
+
+.mission img{
+  height: 50%;
+  width: 100%;
+}
  

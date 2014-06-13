@@ -4112,7 +4112,6 @@ input[type="button"].btn-block {
         float: left; }
         /* line 248, ../sass/lib/_navbar.scss */
         .navbar-nav > li > a {
-          padding-top: 75px;
           padding-bottom: 15px; } }
 
 @media (min-width: 768px) {
@@ -6803,4 +6802,10 @@ font-family: Verdana, Geneva, sans-serif;
   height: 50%;
   width: 100%;
 }
- 
+
+.search-bar img{
+  padding-top: 10px;
+  padding-right: 175px;
+}
+
+

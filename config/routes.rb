@@ -12,9 +12,7 @@ SFWebsite::Application.routes.draw do
   match '/ourteam', to: 'sf#ourteam', via: 'get'
   match '/mission', to: 'sf#mission', via: 'get'
   match '/contactus', to: 'sf#contactus', via: 'get'
-
-
-
+  match '/index', to: 'sf#search', via: 'get'
 
 
 
